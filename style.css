@@ -3,15 +3,33 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+p{
+    
+    color: #303033;
+}
 h1{
     font-size: 50px;
 }
-
+h2{
+    font-size: 40px;
+}
+h4{
+    font-size: 20px;
+}
+.btn {
+	text-decoration: none;
+	padding: 10px 40px;
+	background-image: linear-gradient(#8E38E3,#092f68);
+	color: #fff;
+	border-radius: 5px;
+    font-weight: 700;
+}
 /*--------- Header Area ---------*/
 
 .header{
-    background-image: url(images/t-banner.png);
+    background-image: url(images/home-banner.png);
     background-repeat: no-repeat;
+    
 }
 .row{
     display: flex;
@@ -24,16 +42,56 @@ h1{
     float: left;
 }
 .header-width img{
-    width: 100%;
+    width: 80%;
+}
+.hypen::after{
+    content: " ";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
 }
 .name-color{
     color: #8e38e3;
 }
-.btn {
-	text-decoration: none;
-	padding: 10px 40px;
-	background-image: linear-gradient(#f5f6f7,#092f68);
-	color: #fff;
-	border-radius: 5px;
-    font-weight: 700;
+
+/*--------- My Self Area ---------*/
+
+.my-self{
+    background-image: url(images/my-self.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.my-self-width{
+    width: 50%;
+    padding-left: 2%;
+    margin-left: 5%;
+    margin-right: 10%;
+    float: left;
+}
+.my-self-width img{
+    width: 100%;
+}
+
+/*--------- My Self Area ---------*/
+
+.ex-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.ex-width{
+    width: 50%;
+    padding-left: 2%;
+    margin: 0 2%;
+    box-shadow: 10px 10px 40px gray;
+    height: 350px;
+}
+.ex-width h2{
+    color: #4457DC;
+}
+.ex-width h4{
+    color: #8845F4;
 }
